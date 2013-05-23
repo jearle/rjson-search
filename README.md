@@ -88,8 +88,13 @@ var jesseObj = programmers[0];
 var result = rjsonSearch.objectContainsQuery(jesseObj, 'jesse'); 
 // result === true
 
-var javascriptProgrammers = rjsonSearch.find(programmers, 'javascript'); 
+var javascriptProgrammers = rjsonSearch.find(programmers, 'javascript');
+// javascriptProgrammers.length === 3, true
 // javascriptProgrammers[0].name === "jesse", true
-// javascriptProgrammers[0].name === "matt", true
-// javascriptProgrammers[0].name === "stephen", true
+// javascriptProgrammers[1].name === "matt", true
+// javascriptProgrammers[2].name === "stephen", true
+
+var shopbeamEmployees = rjsonSearch.find(programmers, 'Shopbeam'); 
+// javascriptProgrammers.length === 3, true
+// javascriptProgrammers[0].name === "jesse", true
 ```
