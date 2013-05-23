@@ -1,0 +1,27 @@
+{
+  "name": "rjson-search",
+  "description": "A recursive JSON search for words anywhere within the structure.",
+  "version": "0.0.0",
+  "author": {
+    "name": "Jesse Earle",
+    "email": "earle.jesse@gmail.com"
+  },
+  "repository": { 
+    "type": "git", 
+    "url": "git://github.com/jearle/rjson-search.git" 
+  },
+  "homepage": "https://github.com/jearle/rjson-search",
+  "keywords": [
+    "json",
+    "search",
+    "recursive"
+  ],
+  "devDependencies": {
+    "mocha": ">=1.10.0",
+    "chai": ">=1.6.0"
+  },
+  "main": "./lib/rjson-search",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  }
+}
