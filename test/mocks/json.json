@@ -48,7 +48,8 @@
 				"name": "ICC Lowe Thermal"
 			},
 			{
-				"name": "Media Group"
+				"name": "Media Group",
+				"likes": null
 			}
 		]
 	},

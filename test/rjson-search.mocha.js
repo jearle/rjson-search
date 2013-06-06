@@ -100,6 +100,17 @@ describe('rjson-search', function(){
 		
 		});
 
+		it('should not throw error with null object', function(){
+			
+			
+			expect(function() {
+			
+				rjsonSearch.objectContainsQuery(testJSON, 'query');
+			
+			}).to.not.throw(Error);
+
+		});
+
 	});
 
 	describe('find', function(){
