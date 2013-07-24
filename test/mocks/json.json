@@ -4,7 +4,8 @@
 		"name": "jesse",
 		"age": 104,
 		"programmer": true,
-		"experience": "Programs in javascript, objective-c, and ruby",
+		"experience": "Programs in javascript, objective-c, and ruby", 
+		"languages": ["javascript"],
 		"employmentHistory": [
 			{
 				"name": "Chromocell"
@@ -43,6 +44,7 @@
 		"age": 105,
 		"programmer": true,
 		"experience": "Programs in javascript and actionscript",
+		"languages": ["javascript"],
 		"employmentHistory": [
 			{
 				"name": "ICC Lowe Thermal"
@@ -59,6 +61,7 @@
 		"age": 105,
 		"programmer": true,
 		"experience": "Programs in javascript and objective-c",
+		"languages": ["javascript"],
 		"employmentHistory": [
 			{
 				"name": "ICC Lowe Thermal"

@@ -19,6 +19,7 @@ var programmers = [
         "age": 104,
         "programmer": true,
         "experience": "Programs in javascript, objective-c, and ruby",
+        "languages": ["javascript"],
         "employmentHistory": [
             {
                 "name": "Chromocell"
@@ -57,6 +58,7 @@ var programmers = [
         "age": 105,
         "programmer": true,
         "experience": "Programs in javascript and actionscript",
+        "languages": ["javascript"],
         "employmentHistory": [
             {
                 "name": "ICC Lowe Thermal"
@@ -72,6 +74,7 @@ var programmers = [
         "age": 105,
         "programmer": true,
         "experience": "Programs in javascript and objective-c",
+        "languages": ["javascript"],
         "employmentHistory": [
             {
                 "name": "ICC Lowe Thermal"
