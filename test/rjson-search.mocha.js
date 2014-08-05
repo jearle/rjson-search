@@ -111,6 +111,13 @@ describe('rjson-search', function(){
 
 		});
 
+		it('should ignore case', function () {
+
+			var result = rjsonSearch.objectContainsQuery(testJSON, 'JESSE', true);
+			assert(result, true);
+
+		});
+
 	});
 
 	describe('find', function(){
@@ -141,7 +148,11 @@ describe('rjson-search', function(){
 
 		});
 
-
+		it('should ignore case', function () {
+			var result = rjsonSearch.find(testJSON, 'JESSE', true);
+			assert.lengthOf(result, 1);
+			assert.equal(result[0].name, 'jesse');
+		});
 	
 	});
 
