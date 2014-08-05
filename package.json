@@ -1,7 +1,7 @@
 {
   "name": "rjson-search",
   "description": "A recursive JSON search for words anywhere within the structure.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": {
     "name": "Jesse Earle",
     "email": "earle.jesse@gmail.com"
