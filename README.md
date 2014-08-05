@@ -100,4 +100,12 @@ console.log(javascriptProgrammers[2].name); // stephen
 var shopbeamEmployees = rjsonSearch.find(programmers, 'Shopbeam');
 console.log(javascriptProgrammers.length);  // 1
 console.log(shopbeamEmployees[0].name);     // jesse
+
+// You can also ignore case by specifying true
+// as the third option to either find or 
+// objectContainsQuery
+
+var objectsContainingJesse = rjsonSearch.find(programmers, 'JESSE', true);
+console.log(objectsContainingJesse.length);  // 1
+console.log(objectsContainingJesse[0].name); // jesse
 ```
